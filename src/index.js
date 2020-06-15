@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/App.jsx";
+import App from "./components/app/app.jsx";
 
 
-const settings = {
+const setting = {
   errorCount: 6
 };
 
 ReactDOM.render(
     <App
-      errorCount ={settings.errorCount}
+      errorCount ={setting.errorCount}
     />,
     document.getElementById(`root`)
 );
